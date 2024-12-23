@@ -1,0 +1,11 @@
+{%extends 'base.html'%}
+{%block title%}Data List{%endblock%}
+{%block header%}Data List{%endblock%}
+{%block content%}
+    <h1>Data List</h1>
+    <ul>
+        {%for item in data%}
+            <li>{{item}}</li>
+        {%endfor%}
+    </ul>
+{%endblock%}
